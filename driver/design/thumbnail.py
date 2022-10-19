@@ -61,12 +61,13 @@ async def thumb(thumbnail, title, userid, ctitle):
     image2.paste(image5, mask = image5)
 
     # fonts
-    font1 = ImageFont.truetype(r'etc/robot.otf', 30)
-    font2 = ImageFont.truetype(r'etc/robot.otf', 60)
-    font3 = ImageFont.truetype(r'driver/source/regular.ttf', 49)
-    font4 = ImageFont.truetype(r'etc/Mukta-ExtraBold.ttf', 35)
+    font1 = ImageFont.truetype(r'etc/default.ttf', 70)
+    font2 = ImageFont.truetype(r'etc/default.tf', 60)
+    font3 = ImageFont.truetype(r'etc/default.ttf', 49)
+    font4 = ImageFont.truetype(r'etc/default.ttf', 35)
 
     image4 = ImageDraw.Draw(image2)
+    image4.text((670, 250), text="NOW PLAYING", fill="white", font = font1, align ="left")
 
     # title
     title1 = truncate(title)
