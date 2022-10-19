@@ -36,7 +36,7 @@ async def thumb(thumbnail, title, userid, ctitle):
                 await f.close()
 
     image = Image.open(f"./background.png")
-    black = Image.open("etc/black.jpg")
+    black = Image.open("etc/dark.jpg")
     img = Image.open("etc/robot.png")
     image5 = changeImageSize(1280, 720, img)
     image1 = changeImageSize(1280, 720, image)
