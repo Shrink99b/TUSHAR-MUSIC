@@ -37,7 +37,7 @@ async def thumb(thumbnail, title, userid, ctitle):
 
     image = Image.open(f"./background.png")
     black = Image.open("etc/dark.jpg")
-    img = Image.open("etc/robot.png")
+    img = Image.open("etc/circle.png")
     image5 = changeImageSize(1280, 720, img)
     image1 = changeImageSize(1280, 720, image)
     image1 = image1.filter(ImageFilter.BoxBlur(10))
