@@ -67,7 +67,7 @@ async def thumb(thumbnail, title, userid, ctitle):
     font4 = ImageFont.truetype(r'etc/default.ttf', 35)
 
     image4 = ImageDraw.Draw(image2)
-    image4.text((670, 250), text="NOW PLAYING", fill="white", font = font1, align ="left")
+    image4.text((670, 228), text="NOW PLAYING", fill="white", font = font1, align ="left")
 
     # title
     title1 = truncate(title)
