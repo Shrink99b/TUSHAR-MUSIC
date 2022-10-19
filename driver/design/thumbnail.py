@@ -62,7 +62,7 @@ async def thumb(thumbnail, title, userid, ctitle):
 
     # fonts
     font1 = ImageFont.truetype(r'etc/default.ttf', 70)
-    font2 = ImageFont.truetype(r'etc/default.tf', 60)
+    font2 = ImageFont.truetype(r'etc/default.ttf', 60)
     font3 = ImageFont.truetype(r'etc/default.ttf', 49)
     font4 = ImageFont.truetype(r'etc/default.ttf', 35)
 
